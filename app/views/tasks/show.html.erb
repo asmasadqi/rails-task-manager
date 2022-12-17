@@ -1,5 +1,5 @@
 <h1><%= @task.title %></h1>
-
+<%= link_to "edit task", edit_path %>
 <p><%= @task.details %></p>
 
 <div>
@@ -12,4 +12,4 @@
   <% end %>    
 </div>
 
-<%= link_to 'Back to list', index_path %>
+<%= link_to 'Back to list', tasks_path %>
